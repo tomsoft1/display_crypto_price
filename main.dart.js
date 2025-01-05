@@ -33879,7 +33879,7 @@ A.S8.prototype={
 pA(){var s=0,r=A.Q(t.fw),q,p,o
 var $async$pA=A.R(function(a,b){if(a===1)return A.N(b,r)
 while(true)switch(s){case 0:s=3
-return A.S(A.ams(A.eS("https://cors-anywhere.herokuapp.com/https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false")),$async$pA)
+return A.S(A.ams(A.eS("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false")),$async$pA)
 case 3:p=b
 o=p.b
 if(o===200){o=J.hb(B.bW.d8(A.aml(A.alr(p.e).c.a.i(0,"charset")).d8(p.w)),new A.S9(),t.a)
@@ -33893,7 +33893,7 @@ pB(a,b){return this.Ms(a,b)},
 Ms(a,b){var s=0,r=A.Q(t.a),q,p,o
 var $async$pB=A.R(function(c,d){if(c===1)return A.N(d,r)
 while(true)switch(s){case 0:s=3
-return A.S(A.ams(A.eS("https://cors-anywhere.herokuapp.com/https://api.coingecko.com/api/v3/coins/"+a+"/market_chart?vs_currency=usd&days="+b)),$async$pB)
+return A.S(A.ams(A.eS("https://api.coingecko.com/api/v3/coins/"+a+"/market_chart?vs_currency=usd&days="+b)),$async$pB)
 case 3:p=d
 o=p.b
 if(o===200){q=B.bW.d8(A.aml(A.alr(p.e).c.a.i(0,"charset")).d8(p.w))
