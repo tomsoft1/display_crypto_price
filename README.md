@@ -24,7 +24,7 @@ this is an illustration on my blog post: How AI Tools Like Cursor Are Revolution
 
 - Flutter SDK (latest version)
 - Dart SDK (latest version)
-- A web browser
+- A web browser (but can work on mobile also)
 
 ### Installation
 
@@ -55,11 +55,13 @@ For production deployment, consider:
 - `intl`: ^0.18.0 - For date formatting
 
 ## Project Structure
-lib/
-├── main.dart
-├── screens/
-│ └── crypto_chart_screen.dart
-├── services/
-│ └── crypto_service.dart
-└── widgets/
-└── duration_button.dart
+```
+  lib/
+  ├── main.dart
+  ├── screens/
+  │ └── crypto_chart_screen.dart
+  ├── services/
+  │ └── crypto_service.dart
+  └── widgets/
+  └── duration_button.dart
+```
